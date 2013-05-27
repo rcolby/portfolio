@@ -1,4 +1,3 @@
-portfolio
-=========
+#Portfolio
 
-Professional portfolio site.
+I'm a new Ruby on Rails developer. This will become my portfolio site.
