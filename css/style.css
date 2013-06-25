@@ -1,36 +1,52 @@
 body {
-  background-color: #32383F;
-  color: white;
-  width: 100%;
-  height: 100%;
+  margin:0;
+  padding:0;
 }
 
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #6C7A8C;
-  color: black;
-  margin-top: 5%;
-  border-radius: 5px;
+#about {
+  background: url(../img/halfdome.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
 }
 
-.sans {
-  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+#projects {
+  background: url(../img/central_park.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
 }
 
-.serif {
-  font-family: 'Marcellus', 'Georgia', 'Palatino', 'Times', serif;
+#experience {
+  background: url(../img/london_bridge.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
 }
 
-.nav {
-  position: fixed;
-  width: 40%;
-  z-index: 1;
-  left: 30%;
-  top: 0;
-  height: 50px;
-  border-radius: 0 0 5px 5px;
-  background-color: #A4B9D6 ;
-  color: #212529;
+#contact {
+  background: url(../img/tel_aviv_beach.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+
+article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
