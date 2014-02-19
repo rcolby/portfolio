@@ -80,9 +80,12 @@ p {
 
 li {
   font-family: 'Noto Sans', sans-serif;
-  margin: 5px, 0;
   color: #2C3E50;
   text-align: left;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 h1 {
