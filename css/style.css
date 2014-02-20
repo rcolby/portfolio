@@ -21,6 +21,7 @@ body {
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
+  white-space: nowrap;
 }
 
 #experience {
@@ -69,8 +70,15 @@ article {
 }
 
 .project {
-  width: 1000px;
-  float: left;
+  width: 800px;
+  display: inline-block;
+  margin-right: 10px;
+  overflow: scroll;
+}
+
+.project_text {
+  float: right;
+  overflow: scroll;
 }
 
 p {
